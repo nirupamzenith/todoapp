@@ -1,0 +1,92 @@
+.taskListContainer {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.taskListTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.taskTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.taskTable th,
+.taskTable td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.taskTable th {
+  background-color: #f4f4f4;
+  font-weight: 600;
+  color: #333;
+}
+
+.taskRow {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+
+.taskRow:hover {
+  background-color: #f9f9f9;
+}
+
+.taskCell {
+  font-size: 1rem;
+  color: #555;
+}
+
+.completedStatus {
+  text-decoration: line-through;
+  color: #9e9e9e;
+}
+
+
+.taskActions {
+  display: flex;
+  gap: 10px;
+}
+
+.actionButton {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.completeButton {
+  background-color: #4caf50;
+  color: white;
+}
+
+.completeButton:hover {
+  background-color: #45a049;
+}
+
+.editButton {
+  background-color: #2196f3;
+  color: white;
+}
+
+.editButton:hover {
+  background-color: #1976d2;
+}
+
+.deleteButton {
+  background-color: #f44336;
+  color: white;
+}
+
+.deleteButton:hover {
+  background-color: #e53935;
+}
